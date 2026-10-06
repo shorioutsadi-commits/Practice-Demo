@@ -1,0 +1,6 @@
+{
+  "name": "Hosting Practice Demo",
+  "description": "A standalone practice website for learning shared hosting deployment on InfinityFree with plain HTML, CSS, and vanilla JavaScript.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

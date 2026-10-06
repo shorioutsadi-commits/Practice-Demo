@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hosting Practice Demo</title>
+  <meta name="description" content="A practice website for learning shared hosting deployment on InfinityFree.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">Hosting Practice Demo</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#pdf">PDF</a>
+        <a href="#audio">Audio</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero-section">
+      <h1 class="hero-title">My First Hosted Website</h1>
+      <p class="hero-text">This is a practice website for learning shared hosting.</p>
+      <div class="hero-action">
+        <button id="test-js-btn" class="btn btn-primary" type="button">Test JavaScript</button>
+      </div>
+      <div id="js-status" class="js-output" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- Image Section -->
+    <section id="image" class="section">
+      <h2 class="section-title">Image Test</h2>
+      <figure class="image-wrapper">
+        <img src="assets/test-image.jpg" alt="Test Image" class="responsive-image">
+        <figcaption class="image-caption">Test Image</figcaption>
+      </figure>
+    </section>
+
+    <!-- PDF Section -->
+    <section id="pdf" class="section">
+      <h2 class="section-title">PDF Test</h2>
+      <p class="section-desc">Verify that documents open in a new tab or trigger a download from your server.</p>
+      <div class="button-group">
+        <a href="files/test.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Open PDF</a>
+        <a href="files/test.pdf" download="test.pdf" class="btn btn-outline">Download PDF</a>
+      </div>
+    </section>
+
+    <!-- Audio Section -->
+    <section id="audio" class="section">
+      <h2 class="section-title">Audio Test</h2>
+      <p class="section-desc">Verify that media files stream and play correctly through the browser player.</p>
+      <div class="audio-wrapper">
+        <audio controls class="audio-player" preload="metadata">
+          <source src="audio/test-audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </section>
+
+    <!-- Hosting Section -->
+    <section id="hosting" class="section hosting-section">
+      <h2 class="section-title">Hosting Details</h2>
+      <div class="hosting-grid">
+        <div class="hosting-card">
+          <span class="hosting-label">Hosting:</span>
+          <span class="hosting-value">Practice</span>
+        </div>
+        <div class="hosting-card">
+          <span class="hosting-label">Server:</span>
+          <span class="hosting-value">InfinityFree</span>
+        </div>
+        <div class="hosting-card">
+          <span class="hosting-label">Technology:</span>
+          <span class="hosting-value">HTML / CSS / JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>Hosting Practice Demo © 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
